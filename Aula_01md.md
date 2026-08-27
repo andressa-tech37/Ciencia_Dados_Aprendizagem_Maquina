@@ -16,11 +16,8 @@
 | **Turma:** | Sistemas de Informação |
 | **Data:** | 26/08/2026 |
 | **Equipe:** | Equipe TCC |
-| **Integrante 1:** | Integrante 1 |
-| **Integrante 2:** | Integrante 2 |
-| **Integrante 3:** | |
-| **Integrante 4:** | |
-| **Integrante 5:** | |
+| **Integrante 1:** | Andressa Cristyna Araújo |
+| **Integrante 2:** | Raquel Caetano Nascimento |
 
 ---
 
