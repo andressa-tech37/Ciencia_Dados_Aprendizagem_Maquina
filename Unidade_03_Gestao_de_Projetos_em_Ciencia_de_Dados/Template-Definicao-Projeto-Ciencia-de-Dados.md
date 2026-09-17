@@ -10,13 +10,13 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Título provisório do projeto | |
-| Curso / disciplina | |
+| Título provisório do projeto | A Tecnologia como Escudo: Desenvolvimento de um Aplicativo de Bloco de Notas Seguro para Registrar à Violência contra a Mulher|
+| Curso / disciplina |Ciência de Dados e Aprendizagem de Máquina  |
 | Turma | |
-| Equipe | |
-| Integrantes e funções iniciais | |
-| Professor(a) | |
-| Data de elaboração | |
+| Equipe |Andressa Cristyna Araújo Gomes / Raquel Caetano Nascimento |
+| Integrantes e funções iniciais |Andressa está responsável pela criação da interface (Front End) e Raquel está responsável pela criação do Back End|
+| Professor(a) |Kadidja Valeria Reginaldo De Oliveira |
+| Data de elaboração |16/09/2026 |
 | Versão do documento | |
 
 ## 2. Visão geral
@@ -27,15 +27,13 @@ Em até 100 palavras, apresente o problema, o público-alvo, a proposta de anál
 
 **Preenchimento:**
 
-________________________________________________________________________________
-
-________________________________________________________________________________
+O armazenamento inseguro de evidências de violência doméstica expõe vítimas ao risco de retaliação de agressores com acesso ao seu dispositivo móvel. Focado em mulheres em situação de vulnerabilidade, este trabalho propõe um bloco de notas digital seguro (Offline-First) utilizando Flutter e SQLite. A ferramenta permite registrar textos, fotos e vídeos, restringindo o acesso exclusivamente via autenticação biométrica ou senha nativa do celular. Espera-se entregar uma solução simples e acessível que viabilize o registro contínuo de agressões, servindo como subsídio material e jurídico para a busca de medidas protetivas e efetivação de direitos.
 
 ### 2.2 Declaração do projeto em uma frase
 
-> Nosso projeto utilizará **[dados ou fonte]** para compreender/prever **[fenômeno]**, apoiando **[público ou organização]** na decisão de **[decisão ou ação]**.
+> Nosso projeto utilizará [dados ou fonte] para compreender/prever [fenômeno], apoiando [público ou organização] na decisão de [decisão ou ação].
 
-**Versão da equipe:**
+**Versão da equipe:**Nosso projeto utilizará relatos textuais e capturas multimídia (fotos e vídeos) armazenados localmente para compreender a vulnerabilidade na retenção de provas no ambiente doméstico, apoiando mulheres vítimas de violência na decisão de registrar provas materiais de forma segura para buscar auxílio jurídico e institucional.
 
 ________________________________________________________________________________
 
@@ -50,17 +48,15 @@ Descreva a situação atual, o ambiente em que o problema ocorre e as evidência
 - Quais sinais, dados ou relatos indicam sua existência?
 - Por que é importante investigá-lo agora?
 
-**Preenchimento:**
+O problema ocorre predominantemente no ambiente doméstico e privado. As principais afetadas são mulheres em situação de vulnerabilidade e controle coercitivo. Evidências do Fórum Brasileiro de Segurança Pública (FBSP) revelam que a maioria das agressões e feminicídios acontece na residência da vítima, perpetrados por parceiros ou ex-parceiros, compondo seu círculo íntimo. A investigação deste cenário é urgente agora porque, na era digital, o smartphone da vítima frequentemente se torna alvo de vigilância ou destruição pelo agressor, apagando evidências materiais essenciais (como fotos, áudios e mensagens) e impedindo o avanço de inquéritos e pedidos de medidas protetivas.
 
-________________________________________________________________________________
-
-________________________________________________________________________________
+O problema ocorre nas residências das vítimas, as mulheres na maior parte são afetadas, de acordo com as informações do Fórum Brasileiro de Segurança Pública 
 
 ### 3.2 Problema central
 
 Formule o problema de maneira específica, sem antecipar uma solução.
 
-> **Modelo:** [Público/organização] enfrenta [problema observável] no contexto de [situação], produzindo [consequência ou impacto].
+> Mulheres vítimas de violência doméstica enfrentam o monitoramento, a insegurança e a destruição de evidências digitais (fotos, áudios e textos) no contexto de controle coercitivo e convivência com o agressor na própria residência, produzindo a ausência de materialidade do crime, o que inviabiliza denúncias formais, dificulta a concessão de medidas protetivas e perpetua o ciclo de abuso.
 
 **Problema definido:**
 
@@ -70,9 +66,9 @@ ________________________________________________________________________________
 
 | Evidência | Fonte | O que ela indica? | Confiabilidade / limitação |
 |---|---|---|---|
-| 1. | | | |
-| 2. | | | |
-| 3. | | | |
+| 1. 1.568 vítimas de feminicídio registradas no país em 2025, com 66,3% dos crimes ocorrendo na residência da vítima.|Anuário do Fórum Brasileiro de Segurança Pública (FBSP) / G1. |Indica que o ambiente doméstico é o local de maior risco e vulnerabilidade para a mulher, convivendo diretamente com o agressor. |Confiabilidade: Alta, por ser o órgão oficial de estatísticas criminais. Limitação: Os números reais podem ser maiores devido à subnotificação de casos não letais. |
+| 2.Quase 80% dos autores dos crimes são atuais ou ex-companheiros, compondo o círculo íntimo da vítima. |Diretora-executiva do Fórum Brasileiro de Segurança Pública (Samira Bueno). |Demonstra o contexto de controle coercitivo e sentimento de posse, justificando a dificuldade da vítima em pedir ajuda abertamente. |Confiabilidade: Alta. Limitação: Reflete apenas os casos que chegam às autoridades policiais, mascarando a violência psicológica silenciosa. |
+| 3. Agressores exigem senhas de desbloqueio e inspecionam os aparelhos, tornando a existência de "aplicativos de denúncia" visíveis um risco iminente de escalada da violência |Análise de Soluções Existentes (Seção 1.2.1) do referencial do TCC.|Indica a necessidade urgente de soluções baseadas em discrição e segurança nativa (como o uso de senhas ou biometria) para ocultar as provas no aparelho |Confiabilidade: Média/Alta (baseada na literatura de cibersegurança e dinâmicas de abuso). Limitação: A vigilância digital é um crime subnotificado e difícil de rastrear sem perícia. |
 
 ## 4. Público-alvo e partes interessadas
 
@@ -80,10 +76,10 @@ ________________________________________________________________________________
 
 | Aspecto | Descrição |
 |---|---|
-| Quem são os usuários ou beneficiários? | |
-| Quais necessidades possuem? | |
-| Como são afetados pelo problema? | |
-| Que decisão ou ação poderão tomar com os resultados? | |
+| Quem são os usuários ou beneficiários? |Mulheres vítimas de violência doméstica, psicológica, patrimonial ou sexual, em situação de vulnerabilidade.   |
+| Quais necessidades possuem? |Necessitam de um meio digital seguro e discreto para documentar, ocultar e preservar evidências de abusos (como textos, fotos e vídeos) sem que o agressor descubra.   |
+| Como são afetados pelo problema? |São submetidas a dinâmicas de controle coercitivo no próprio lar, enfrentando o medo constante de retaliação e a destruição de suas provas caso o agressor inspecione o smartphone |
+| Que decisão ou ação poderão tomar com os resultados? |Com as evidências preservadas em segurança, poderão formalizar denúncias policiais com materialidade, solicitar Medidas Protetivas de Urgência (MPU) e buscar amparo judicial. |
 
 ### 4.2 Partes interessadas
 
