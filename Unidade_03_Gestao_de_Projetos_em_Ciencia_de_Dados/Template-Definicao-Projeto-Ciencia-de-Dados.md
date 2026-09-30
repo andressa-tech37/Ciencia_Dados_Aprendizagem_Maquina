@@ -10,11 +10,11 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Título provisório do projeto | A Tecnologia como Escudo: Desenvolvimento de um Aplicativo de Bloco de Notas Seguro para Registrar à Violência contra a Mulher|
+| Título provisório do projeto | Análise de dados dos Botões de Pânico em 2025|
 | Curso / disciplina |Ciência de Dados e Aprendizagem de Máquina  |
 | Turma | |
 | Equipe |Andressa Cristyna Araújo Gomes / Raquel Caetano Nascimento |
-| Integrantes e funções iniciais |Andressa está responsável pela criação da interface (Front End) e Raquel está responsável pela criação do Back End|
+| Integrantes e funções iniciais ||
 | Professor(a) |Kadidja Valeria Reginaldo De Oliveira |
 | Data de elaboração |16/09/2026 |
 | Versão do documento | |
@@ -27,13 +27,13 @@ Em até 100 palavras, apresente o problema, o público-alvo, a proposta de anál
 
 **Preenchimento:**
 
-O armazenamento inseguro de evidências de violência doméstica expõe vítimas ao risco de retaliação de agressores com acesso ao seu dispositivo móvel. Focado em mulheres em situação de vulnerabilidade, este trabalho propõe um bloco de notas digital seguro (Offline-First) utilizando Flutter e SQLite. A ferramenta permite registrar textos, fotos e vídeos, restringindo o acesso exclusivamente via autenticação biométrica ou senha nativa do celular. Espera-se entregar uma solução simples e acessível que viabilize o registro contínuo de agressões, servindo como subsídio material e jurídico para a busca de medidas protetivas e efetivação de direitos.
+A violência doméstica exige respostas rápidas do Estado, especialmente no descumprimento de medidas protetivas. Este projeto analisa a eficácia dos "botões de pânico" no Brasil em 2025, avaliando seu impacto na preservação da vida de mulheres vulneráveis. Utilizando bases de acionamentos e registros policiais, a análise cruzará o volume de chamados com o tempo de resposta e o desfecho das ocorrências. O resultado esperado é um painel de indicadores que demonstre quantas vidas foram salvas e auxilie a segurança pública na otimização de recursos e socorro.
 
 ### 2.2 Declaração do projeto em uma frase
 
 > Nosso projeto utilizará [dados ou fonte] para compreender/prever [fenômeno], apoiando [público ou organização] na decisão de [decisão ou ação].
 
-**Versão da equipe:** Nosso projeto utilizará relatos textuais e capturas multimídia (fotos e vídeos) armazenados localmente para compreender a vulnerabilidade na retenção de provas no ambiente doméstico, apoiando mulheres vítimas de violência na decisão de registrar provas materiais de forma segura para buscar auxílio jurídico e institucional.
+**Versão da equipe:** Nosso projeto utilizará dados de acionamento de botões de pânico e registros de ocorrências policiais de 2025 para compreender a eficácia tecnológica na prevenção de feminicídios, apoiando órgãos de segurança pública e formuladores de políticas na decisão de otimizar a distribuição de viaturas e aprimorar o tempo de resposta aos chamados.
 
 ________________________________________________________________________________
 
@@ -48,17 +48,15 @@ Descreva a situação atual, o ambiente em que o problema ocorre e as evidência
 - Quais sinais, dados ou relatos indicam sua existência?
 - Por que é importante investigá-lo agora?
 
-O problema ocorre predominantemente no ambiente doméstico e privado. As principais afetadas são mulheres em situação de vulnerabilidade e controle coercitivo. Evidências do Fórum Brasileiro de Segurança Pública (FBSP) revelam que a maioria das agressões e feminicídios acontece na residência da vítima, perpetrados por parceiros ou ex-parceiros, compondo seu círculo íntimo. A investigação deste cenário é urgente agora porque, na era digital, o smartphone da vítima frequentemente se torna alvo de vigilância ou destruição pelo agressor, apagando evidências materiais essenciais (como fotos, áudios e mensagens) e impedindo o avanço de inquéritos e pedidos de medidas protetivas.
-
-O problema ocorre nas residências das vítimas, as mulheres na maior parte são afetadas, de acordo com as informações do Fórum Brasileiro de Segurança Pública 
+O problema ocorre predominantemente no ambiente doméstico, afetando mulheres que já possuem medidas protetivas de urgência, mas continuam sob ameaça. Dados do Fórum Brasileiro de Segurança Pública indicam que a residência é o local de maior risco para o feminicídio. Sinais dessa vulnerabilidade refletem-se no número crescente de descumprimentos de distanciamento. É crucial investigar o uso dos botões de pânico em 2025 para entender se a tecnologia está efetivamente reduzindo o tempo de resposta policial e salvando vidas, ou se existem gargalos no fluxo de atendimento. 
 
 ### 3.2 Problema central
 
 Formule o problema de maneira específica, sem antecipar uma solução.
 
-> Mulheres vítimas de violência doméstica enfrentam o monitoramento, a insegurança e a destruição de evidências digitais (fotos, áudios e textos) no contexto de controle coercitivo e convivência com o agressor na própria residência, produzindo a ausência de materialidade do crime, o que inviabiliza denúncias formais, dificulta a concessão de medidas protetivas e perpetua o ciclo de abuso.
+>  **Modelo:** [Público/organização] enfrenta [problema observável] no contexto de [situação], produzindo [consequência ou impacto].
 
-**Problema definido:**
+**Problema definido:** Órgãos de segurança pública enfrentam a dificuldade de mensurar a taxa de sucesso e os gargalos de tempo de resposta dos botões de pânico no contexto de descumprimento iminente de medidas protetivas, produzindo falhas potenciais na alocação rápida de viaturas e risco contínuo à vida das vítimas.
 
 ________________________________________________________________________________
 
@@ -66,9 +64,8 @@ ________________________________________________________________________________
 
 | Evidência | Fonte | O que ela indica? | Confiabilidade / limitação |
 |---|---|---|---|
-| 1. 1.568 vítimas de feminicídio registradas no país em 2025, com 66,3% dos crimes ocorrendo na residência da vítima.|Anuário do Fórum Brasileiro de Segurança Pública (FBSP) / G1. |Indica que o ambiente doméstico é o local de maior risco e vulnerabilidade para a mulher, convivendo diretamente com o agressor. |Confiabilidade: Alta, por ser o órgão oficial de estatísticas criminais. Limitação: Os números reais podem ser maiores devido à subnotificação de casos não letais. |
-| 2. Quase 80% dos autores dos crimes são atuais ou ex-companheiros, compondo o círculo íntimo da vítima. |Diretora-executiva do Fórum Brasileiro de Segurança Pública (Samira Bueno). |Demonstra o contexto de controle coercitivo e sentimento de posse, justificando a dificuldade da vítima em pedir ajuda abertamente. |Confiabilidade: Alta. Limitação: Reflete apenas os casos que chegam às autoridades policiais, mascarando a violência psicológica silenciosa. |
-| 3. Agressores exigem senhas de desbloqueio e inspecionam os aparelhos, tornando a existência de "aplicativos de denúncia" visíveis um risco iminente de escalada da violência |Análise de Soluções Existentes (Seção 1.2.1) do referencial do TCC.|Indica a necessidade urgente de soluções baseadas em discrição e segurança nativa (como o uso de senhas ou biometria) para ocultar as provas no aparelho |Confiabilidade: Média/Alta (baseada na literatura de cibersegurança e dinâmicas de abuso). Limitação: A vigilância digital é um crime subnotificado e difícil de rastrear sem perícia. |
+| 1. Altas taxas de feminicídio ocorrem dentro da residência da vítima, perpetrados por ex-parceiros.|Fórum Brasileiro de Segurança Pública (FBSP) / G1. |A necessidade de ferramentas de acionamento imediato (como o botão de pânico) no ambiente doméstico.|Confiabilidade: Alta. Limitação: Não detalha se as vítimas possuíam o botão. |
+| 2. Volume total de acionamentos do botão de pânico registrados no ano de 2025. |Secretarias de Segurança Pública Estaduais (hipotético para o projeto). |A demanda real pelo serviço e a frequência de descumprimento de medidas protetivas. |Confiabilidade: Alta (dados de sistema). Limitação: Sujeito a acionamentos acidentais. |
 
 ## 4. Público-alvo e partes interessadas
 
@@ -95,7 +92,7 @@ ________________________________________________________________________________
 
 Escreva um objetivo que indique o que será analisado, para qual finalidade e em qual contexto. Inicie com um verbo no infinitivo.
 
-**Objetivo geral:**
+**Objetivo geral:** Analisar a eficácia dos acionamentos de botões de pânico por mulheres com medidas protetivas no Brasil durante o ano de 2025, para avaliar o impacto na preservação de vidas e identificar gargalos no tempo de resposta da segurança pública.
 
 ________________________________________________________________________________
 
@@ -105,11 +102,10 @@ Defina de três a cinco objetivos mensuráveis e compatíveis com o prazo do pro
 
 | Nº | Objetivo específico | Evidência de conclusão |
 |---:|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 |Quantificar o volume total de acionamentos do botão de pânico em 2025. |Tabela descritiva com o total de registros no ano. |
+| 2 |Medir o tempo médio de resposta entre o acionamento e a chegada da viatura policial. |Gráfico de distribuição de tempo (SLA) por região. |
+| 3 |Identificar a taxa de acionamentos que resultaram em intervenção bem-sucedida (vítima resgatada/agressor afastado). |Indicador percentual (Taxa de Sucesso/Vidas Salvas). |
+| 4 |Mapear os horários e localidades com maior lentidão no atendimento policial. |Mapa de calor cruzando localização e tempo de espera. |
 
 ### 5.3 Verificação dos objetivos
 
@@ -127,11 +123,8 @@ As perguntas de negócio orientam a coleta, a análise e a comunicação dos res
 
 | Nº | Pergunta de negócio | Decisão apoiada | Dados necessários | Análise ou indicador possível |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
+| 1 |Quantos acionamentos do botão de pânico resultaram no resgate bem-sucedido da vítima (vidas salvas) em 2025? |Expansão ou revisão do programa do botão de pânico. |Registros de acionamentos cruzados com boletins de ocorrência e desfechos. |Taxa de conversão: Acionamentos vs. Intervenções efetivas. |
+| 2 |Qual é o tempo médio entre o acionamento do botão e a chegada da viatura ao local? |Otimização de rotas e distribuição de viaturas por região. |Log de horário do clique (app) e horário de chegada da polícia (sistema de despacho). |Tempo médio de resposta (SLA de atendimento de urgência). |
 
 ## 7. Hipóteses iniciais
 
