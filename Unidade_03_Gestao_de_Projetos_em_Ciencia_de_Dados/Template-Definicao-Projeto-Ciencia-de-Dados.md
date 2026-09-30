@@ -33,7 +33,7 @@ O armazenamento inseguro de evidências de violência doméstica expõe vítimas
 
 > Nosso projeto utilizará [dados ou fonte] para compreender/prever [fenômeno], apoiando [público ou organização] na decisão de [decisão ou ação].
 
-**Versão da equipe:**Nosso projeto utilizará relatos textuais e capturas multimídia (fotos e vídeos) armazenados localmente para compreender a vulnerabilidade na retenção de provas no ambiente doméstico, apoiando mulheres vítimas de violência na decisão de registrar provas materiais de forma segura para buscar auxílio jurídico e institucional.
+**Versão da equipe:** Nosso projeto utilizará relatos textuais e capturas multimídia (fotos e vídeos) armazenados localmente para compreender a vulnerabilidade na retenção de provas no ambiente doméstico, apoiando mulheres vítimas de violência na decisão de registrar provas materiais de forma segura para buscar auxílio jurídico e institucional.
 
 ________________________________________________________________________________
 
@@ -67,7 +67,7 @@ ________________________________________________________________________________
 | Evidência | Fonte | O que ela indica? | Confiabilidade / limitação |
 |---|---|---|---|
 | 1. 1.568 vítimas de feminicídio registradas no país em 2025, com 66,3% dos crimes ocorrendo na residência da vítima.|Anuário do Fórum Brasileiro de Segurança Pública (FBSP) / G1. |Indica que o ambiente doméstico é o local de maior risco e vulnerabilidade para a mulher, convivendo diretamente com o agressor. |Confiabilidade: Alta, por ser o órgão oficial de estatísticas criminais. Limitação: Os números reais podem ser maiores devido à subnotificação de casos não letais. |
-| 2.Quase 80% dos autores dos crimes são atuais ou ex-companheiros, compondo o círculo íntimo da vítima. |Diretora-executiva do Fórum Brasileiro de Segurança Pública (Samira Bueno). |Demonstra o contexto de controle coercitivo e sentimento de posse, justificando a dificuldade da vítima em pedir ajuda abertamente. |Confiabilidade: Alta. Limitação: Reflete apenas os casos que chegam às autoridades policiais, mascarando a violência psicológica silenciosa. |
+| 2. Quase 80% dos autores dos crimes são atuais ou ex-companheiros, compondo o círculo íntimo da vítima. |Diretora-executiva do Fórum Brasileiro de Segurança Pública (Samira Bueno). |Demonstra o contexto de controle coercitivo e sentimento de posse, justificando a dificuldade da vítima em pedir ajuda abertamente. |Confiabilidade: Alta. Limitação: Reflete apenas os casos que chegam às autoridades policiais, mascarando a violência psicológica silenciosa. |
 | 3. Agressores exigem senhas de desbloqueio e inspecionam os aparelhos, tornando a existência de "aplicativos de denúncia" visíveis um risco iminente de escalada da violência |Análise de Soluções Existentes (Seção 1.2.1) do referencial do TCC.|Indica a necessidade urgente de soluções baseadas em discrição e segurança nativa (como o uso de senhas ou biometria) para ocultar as provas no aparelho |Confiabilidade: Média/Alta (baseada na literatura de cibersegurança e dinâmicas de abuso). Limitação: A vigilância digital é um crime subnotificado e difícil de rastrear sem perícia. |
 
 ## 4. Público-alvo e partes interessadas
