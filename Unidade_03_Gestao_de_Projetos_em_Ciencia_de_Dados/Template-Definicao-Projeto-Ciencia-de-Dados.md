@@ -82,9 +82,11 @@ ________________________________________________________________________________
 
 | Parte interessada | Interesse no projeto | Influência | Forma de envolvimento |
 |---|---|---|---|
-| | | Baixa / Média / Alta | |
-| | | Baixa / Média / Alta | |
-| | | Baixa / Média / Alta | |
+|Órgãos de Segurança Pública |Entender a quantidade e a distribuição dos acionamentos dos botões de pânico para identificar padrões e situações de maior risco. |Alta |Fornecimento de dados, interpretação dos resultados e utilização das análises para apoiar ações de segurança. |
+|Mulheres usuárias do botão de pânico |Ter maior proteção e uma resposta mais eficiente em situações de risco ou violência. |Alta |São o público diretamente beneficiado; os registros de acionamento constituem a principal fonte analisada no projeto. |
+|Órgãos de proteção e enfrentamento à violência contra a mulher|Identificar padrões nos acionamentos e utilizar os resultados para aprimorar políticas e medidas de proteção.|Alta |Avaliação dos resultados e utilização das informações para planejamento de ações e políticas públicas.|
+|Equipe responsável pela análise de dados|Transformar os registros de 2025 em informações compreensíveis, identificando frequência, períodos e possíveis padrões de acionamento|Alta|Coleta, tratamento, análise, visualização e apresentação dos dados.|
+|Gestores públicos|Utilizar os resultados para apoiar decisões relacionadas à segurança e à proteção das mulheres.|Alta|Análise dos indicadores e tomada de decisões com base nas informações obtidas.|
 
 ## 5. Objetivos do projeto
 
@@ -132,9 +134,11 @@ Registre suposições que serão investigadas, sem apresentá-las como conclusõ
 
 | Hipótese | Como poderá ser testada? | Resultado que a refutaria? |
 |---|---|---|
-| H1. | | |
-| H2. | | |
-| H3. | | |
+| H1.Os acionamentos do botão de pânico podem ter sido mais frequentes em determinados meses de 2025. |Comparar a quantidade de acionamentos registrada em cada mês do ano. |Uma distribuição semelhante dos acionamentos entre todos os meses. |
+| H2.Pode haver maior concentração de acionamentos em determinados horários do dia. |Agrupar os registros por faixa de horário e comparar a frequência de acionamentos. |Não existir diferença relevante entre as faixas de horário analisadas. |
+| H3.Algumas regiões podem apresentar maior número de acionamentos do botão de pânico. |Comparar a quantidade de acionamentos por região/localidade, caso essa informação esteja disponível na base. |Os acionamentos apresentarem distribuição semelhante entre as regiões. |
+| H4.Uma mesma usuária pode ter acionado o botão de pânico mais de uma vez durante 2025.|Analisar identificadores anonimizados das usuárias e verificar a quantidade de acionamentos associados a cada uma.|Cada usuária apresentar apenas um acionamento durante o período analisado.|
+|H5.Os acionamentos podem estar concentrados em determinados dias da semana.|Agrupar os registros por dia da semana e comparar as quantidades.|Não haver diferença relevante na frequência entre os dias da semana.|
 
 ## 8. Dados necessários e viabilidade
 
