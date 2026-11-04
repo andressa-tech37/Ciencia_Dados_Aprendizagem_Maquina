@@ -8,7 +8,7 @@ Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.
 
 ## Identificação
 
-- Estudante ou equipe: **Andressa Cristyna Araújo Gomes e Raquel Caetano Nascimento**
+- Estudante ou equipe: **Andressa Cristyna Araújo Gomes**
 - Turma: **Sistemas de Informação — 2026.2 Noturno**
 - Data de realização: **04/11/2026**
 - Integrantes e contribuições (se em equipe): **Individual**
@@ -23,7 +23,7 @@ Uma instituição quer compreender sinais associados à evasão e oferecer apoio
 
 ### 1. Delimitação
 
-- Problema e público: **Estudantes matriculados que podem precisar de apoio acadêmico; equipe de permanência e orientação.**
+- Problema e público: **Estudantes matriculados que podem precisar de apoio acadêmico; equipe de permanência.**
 - Decisão que o resultado pode apoiar: **Oferecer contato voluntário e serviços de apoio, nunca punição ou desligamento automático.**
 - Definição de evasão, unidade e horizonte: **Unidade: estudante; evasão = não permanência até o encerramento do semestre, conforme critério institucional a definir; previsão após a semana 4.**
 
