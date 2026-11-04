@@ -16,7 +16,7 @@ Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.
 ## Checklist
 
 - [ ] Diferenciei IA, Ciência de Dados e ML com um exemplo (revisar distinção de IA e Ciência de Dados).
-- [ ] Completei o quadro supervisionado/não supervisionado.
+- [x] Completei o quadro supervisionado/não supervisionado.
 - [x] Justifiquei pelo menos cinco situações-problema.
 - [x] Registrei a investigação da biblioteca.
 - [x] Identifiquei atributos, alvo, unidade e momento da previsão.
