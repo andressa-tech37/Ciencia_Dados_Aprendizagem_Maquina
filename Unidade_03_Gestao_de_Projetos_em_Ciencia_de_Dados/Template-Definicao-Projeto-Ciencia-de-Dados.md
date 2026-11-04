@@ -113,11 +113,11 @@ Defina de três a cinco objetivos mensuráveis e compatíveis com o prazo do pro
 
 Marque após revisar:
 
-- [ ] São específicos e escritos com clareza.
-- [ ] Podem ser verificados por meio de entregáveis ou métricas.
-- [ ] São viáveis com os dados, recursos e tempo disponíveis.
-- [ ] Estão diretamente relacionados ao problema central.
-- [ ] Consideram os usuários e a decisão que será apoiada.
+- [x] São específicos e escritos com clareza.
+- [x] Podem ser verificados por meio de entregáveis ou métricas.
+- [x] São viáveis com os dados, recursos e tempo disponíveis.
+- [x] Estão diretamente relacionados ao problema central.
+- [x] Consideram os usuários e a decisão que será apoiada.
 
 ## 6. Perguntas de negócio
 
@@ -127,6 +127,9 @@ As perguntas de negócio orientam a coleta, a análise e a comunicação dos res
 |---:|---|---|---|---|
 | 1 |Quantos acionamentos do botão de pânico resultaram no resgate bem-sucedido da vítima (vidas salvas) em 2025? |Expansão ou revisão do programa do botão de pânico. |Registros de acionamentos cruzados com boletins de ocorrência e desfechos. |Taxa de conversão: Acionamentos vs. Intervenções efetivas. |
 | 2 |Qual é o tempo médio entre o acionamento do botão e a chegada da viatura ao local? |Otimização de rotas e distribuição de viaturas por região. |Log de horário do clique (app) e horário de chegada da polícia (sistema de despacho). |Tempo médio de resposta (SLA de atendimento de urgência). |
+| 3 |Quais localidades apresentam maior volume de acionamentos nas fontes analisadas. |Apoiar planejamento e investigação de diferenças territoriais. Localidade e número de acionamentos. |Ranking descritivo e taxas, quando houver denominadores comparáveis. |
+| 4 |Quais desfechos dos acionamentos são informados pelas fontes? |Compreender como os programas registram o atendimento decorrente do acionamento. |Acionamento, atendimento, prisão ou outro desfecho disponível. |Frequências e proporções por tipo de desfecho |
+| 5 |Quais limitações impedem uma comparação nacional direta? |Definir necessidades de padronização e melhoria dos dados públicos. |Metadados, período, definição das variáveis e cobertura. |Matriz de compatibilidade das fontes. |
 
 ## 7. Hipóteses iniciais
 
@@ -144,28 +147,29 @@ Registre suposições que serão investigadas, sem apresentá-las como conclusõ
 
 | Conjunto ou fonte de dados | Variáveis principais | Formato | Acesso / responsável | Qualidade esperada |
 |---|---|---|---|---|
-| | | | | |
-| | | | | |
-| | | | | |
+|Dados de programas fontes estaduais/municipais porém de botão de pânico fragmentadas e não (ex.: SP Mulher Segura e Guardas/Patrulhas Maria da Penha) |Número de acionamentos, período, localidade, atendimentos e desfechos disponíveis |Portais, relatórios, notícias oficiais, PDF/planilhas quando disponíveis |Governos estaduais, prefeituras e órgãos de segurança |Alta/Médias; fontes oficiais, porém fragmentadas e não padronizadas |
+|Painel de Violência contra a Mulher/ medidas protetivas |Pedidos, decisões, concessões, tribunal, período |Painel/Base Pública |CNJ/DataJud |Alta; fonte oficial nacional, mas não mede diretamente acionamentos do botão |
+|Painel de Dados do 180 |Denúncias, tipos de violência, perfil, região, período |Painel/Base Pública |Ministério das Mulheres |Alta; fonte oficial nacional, mas não mede diretamente acionamentos do botão |
+|Anuário Brasileiro de Segurança Pública |Feminicídio, violência doméstica, descumprimento de medidas e outros indicadores |Relatório/PDF/Excel |Fórum Brasileiro de Segurança Pública, com dados de órgãos oficiais |Alta para contextualização; metodologia e cobertura devem ser verificadas por indicador |
 
 ### 8.1 Avaliação inicial dos dados
 
-- **Disponibilidade:** __________________________________________________________
-- **Volume e período coberto:** __________________________________________________
-- **Dados ausentes, duplicados ou inconsistentes previstos:** ______________________
-- **Necessidade de integração entre fontes:** _____________________________________
-- **Restrições legais, contratuais ou institucionais:** _____________________________
+- **Disponibilidade:** Parcial. Existem dados públicos oficiais sobre violência contra a mulher e medidas protetivas, além de dados de acionamento divulgados por programas estaduais e municipais, mas não foi identificada uma base nacional única de acionamentos de botão de pânico.
+- **Volume e período coberto:**O foco será 2025. A cobertura varia conforme a fonte: algumas     apresentam o ano completo, enquanto outras apresentam semestre, período parcial ou valor acumulado desde o lançamento do programa.
+- **Dados ausentes, duplicados ou inconsistentes previstos:** odem ocorrer ausência de data/hora, diferenças na definição de "acionamento", registros acumulados, períodos distintos e falta de informação sobre desfecho.
+- **Necessidade de integração entre fontes:**  Sim. Será necessário integrar dados contextuais do CNJ, Ministério das Mulheres e FBSP com dados específicos de programas locais, preservando a origem e a unidade geográfica de cada indicador.
+- **Restrições legais, contratuais ou institucionais:** O projeto utilizará prioritariamente dados públicos e agregados. Dados pessoais/sensíveis não deverão ser coletados ou expostos. Caso existam microdados, deverão ser observados a LGPD, a finalidade acadêmica, a minimização e a anonimização.
 
 ### 8.2 Privacidade, ética e segurança
 
-- [ ] A equipe verificou se há dados pessoais ou sensíveis.
-- [ ] A coleta e o uso dos dados possuem finalidade legítima e explícita.
-- [ ] O acesso será limitado às pessoas autorizadas.
-- [ ] Dados pessoais serão minimizados, anonimizados ou pseudonimizados quando necessário.
-- [ ] Possíveis vieses e impactos sobre grupos serão analisados.
-- [ ] A divulgação dos resultados evitará reidentificação ou exposição indevida.
+- [x] A equipe verificou se há dados pessoais ou sensíveis.
+- [x] A coleta e o uso dos dados possuem finalidade legítima e explícita.
+- [x] O acesso será limitado às pessoas autorizadas.
+- [x] Dados pessoais serão minimizados, anonimizados ou pseudonimizados quando necessário.
+- [x] Possíveis vieses e impactos sobre grupos serão analisados.
+- [x] A divulgação dos resultados evitará reidentificação ou exposição indevida.
 
-**Cuidados específicos deste projeto:**
+**Cuidados específicos deste projeto:** Não divulgar nomes, endereços, coordenadas precisas, números de processos ou qualquer informação que permita identificar vítimas. Priorizar dados agregados. Evitar interpretar número de acionamentos como número de mulheres, número de agressões ou "vidas salvas" sem evidência específica. Diferenciar denúncia, medida protetiva, acionamento, atendimento e desfecho. Não comparar localidades com metodologias incompatíveis sem explicitar a limitação.
 
 ________________________________________________________________________________
 
@@ -173,12 +177,12 @@ ________________________________________________________________________________
 
 | Dentro do escopo | Fora do escopo |
 |---|---|
-| | |
-| | |
-| | |
+|Dados referentes a 2025 ou recortes de 2025 claramente identificados |Inferir dados nacionais a partir de uma única cidade ou estado |
+|Acionamentos de botões de pânico destinados à proteção de mulheres |Afirmar causalidade entre botão de pânico e redução de feminicídios sem desenho causal e dados adequados |
 
 **Restrições conhecidas:** tempo, acesso a dados, ferramentas, infraestrutura, conhecimento técnico ou normas.
 
+Fragmentação dos dados entre estados e municípios; inexistência identificada de uma base nacional padronizada de acionamentos; períodos de divulgação diferentes; possível indisponibilidade de microdados; prazo acadêmico; necessidade de tratamento manual de relatórios e páginas públicas; diferenças conceituais entre programas.
 ________________________________________________________________________________
 
 ## 10. Resultados e entregáveis previstos
