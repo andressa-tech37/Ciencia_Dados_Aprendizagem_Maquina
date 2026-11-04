@@ -8,7 +8,7 @@ Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.
 
 ## Identificação
 
-- Estudante ou equipe: **Andressa Cristyna Araújo Gomes e Raquel Caetano Nascimento**
+- Estudante ou equipe: **Andressa Cristyna Araújo Gomes**
 - Turma: **Sistemas de Informação — 2026.2 Noturno**
 - Data de realização: **04/11/2026**
 - Integrantes e contribuições (se em equipe): **Individual**
