@@ -23,7 +23,7 @@ Uma instituição quer compreender sinais associados à evasão e oferecer apoio
 
 ### 1. Delimitação
 
-- Problema e público: **Estudantes matriculados que podem precisar de apoio acadêmico; equipe de permanência.**
+- Problema e público: **Estudantes matriculados que podem precisar de apoio acadêmico; equipe de permanência e orientação.**
 - Decisão que o resultado pode apoiar: **Oferecer contato voluntário e serviços de apoio, nunca punição ou desligamento automático.**
 - Definição de evasão, unidade e horizonte: **Unidade: estudante; evasão = não permanência até o encerramento do semestre, conforme critério institucional a definir; previsão após a semana 4.**
 
