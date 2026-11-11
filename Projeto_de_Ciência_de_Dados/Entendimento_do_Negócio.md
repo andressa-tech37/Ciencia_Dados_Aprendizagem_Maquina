@@ -1,2 +1,59 @@
 
 
+# Fase 1 — Entendimento do Negócio (CRISP-DM)
+
+## Projeto: Análise dos casos de violência doméstica no Distrito Federal
+
+**Pergunta de negócio:** Quais regiões administrativas do Distrito Federal apresentam os maiores registros de violência doméstica?
+
+**Recorte geográfico:** Distrito Federal, Brasil.  
+**Período de análise:** 2024 e 2025.  
+**Área de aplicação:** Segurança pública e Ciência de Dados.
+
+## 1. Problema de negócio
+
+A violência doméstica ou familiar contra a mulher é um problema social e de segurança pública. Os registros de ocorrências podem variar entre as regiões administrativas do Distrito Federal. Compreender essa distribuição é importante para identificar onde se concentram os maiores números de registros e apoiar a discussão sobre ações de prevenção e atendimento.
+
+## 2. Objetivo do negócio
+
+Identificar as regiões administrativas do Distrito Federal com os maiores números de ocorrências registradas de violência doméstica ou familiar, comparando os anos de 2024 e 2025 e observando mudanças na distribuição geográfica dos registros.
+
+## 3. Objetivo da Ciência de Dados
+
+Utilizar dados oficiais da Secretaria de Estado de Segurança Pública do Distrito Federal (SSP-DF) para realizar análise exploratória e produzir tabelas, indicadores e gráficos que permitam:
+
+- Quantificar os registros por região administrativa e ano;
+- Elaborar um ranking das regiões com mais ocorrências;
+- Comparar a variação dos registros entre 2024 e 2025;
+- Identificar a participação de cada região no total do DF;
+- Quando houver dados populacionais comparáveis, calcular taxas por 100 mil habitantes.
+
+## 4. Critérios de sucesso
+
+O projeto será considerado bem-sucedido se:
+
+1. Identificar e apresentar as regiões administrativas com maiores números absolutos de registros;
+2. Comparar os totais de 2024 e 2025 de forma verificável;
+3. Produzir gráficos e tabelas claros, com indicação da fonte e do período;
+4. Explicar as limitações dos dados e evitar interpretar números absolutos como medidas diretas de risco.
+
+## 5. Plano inicial do projeto
+
+1. **Entendimento do negócio:** definir pergunta, objetivos e critérios de sucesso.
+2. **Entendimento dos dados:** examinar os relatórios oficiais e descrever suas variáveis e limitações.
+3. **Preparação dos dados:** extrair as tabelas dos PDFs, estruturar uma base em CSV ou Excel e validar os totais.
+4. **Modelagem/análise:** calcular rankings, participações e variações anuais; aplicar técnicas adicionais somente se forem pertinentes.
+5. **Avaliação:** verificar se os resultados respondem à pergunta de negócio.
+6. **Apresentação/implantação:** elaborar relatório ou painel com os resultados e suas limitações.
+
+## 6. Fontes de dados e restrições iniciais
+
+**Fonte principal:** Secretaria de Estado de Segurança Pública do Distrito Federal, *Relatório de Análise Criminal nº 001/2026 — Violência Doméstica ou Familiar no DF: comparativo 2024–2025*, datado de 16 de janeiro de 2026.
+
+**Fontes complementares:** balanços criminais do Distrito Federal de 2024 e 2025, utilizados apenas para contextualização, pois não apresentam, isoladamente, a distribuição de violência doméstica por região administrativa.
+
+**Limitações previstas:** os registros oficiais podem sofrer revisões e não representam necessariamente todos os episódios de violência, devido à subnotificação. Regiões com populações maiores podem apresentar mais registros absolutos sem necessariamente apresentar maiores taxas por habitante. A análise utilizará dados agregados, sem identificação de vítimas.
+
+## 7. Entregável da Fase 1
+
+Este documento consolida o entendimento do problema, a pergunta de negócio, os objetivos, os critérios de sucesso, as fontes previstas e o plano inicial de trabalho. **Os resultados estatísticos e o ranking das regiões pertencem às fases seguintes do CRISP-DM.**
