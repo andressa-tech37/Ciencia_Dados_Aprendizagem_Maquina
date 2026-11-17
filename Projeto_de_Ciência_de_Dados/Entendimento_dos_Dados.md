@@ -98,6 +98,10 @@ Para as etapas seguintes, recomenda-se extrair e conferir a tabela regional, est
 2. **Base estruturada:** tabela de 33 regiões com registros de 2024 e 2025, a ser preparada e validada na fase seguinte.
 3. **Visualizações exploratórias:** ranking regional e comparação entre anos, que podem ser reproduzidos a partir da base estruturada.
 
+## 2.7 Fontes complementares incorporadas (atualização)
+
+Por orientação da professora, os dados deveriam ser **extraídos** para uma planilha, e não apenas copiados de tabelas prontas. Para isso foram incluídos relatórios anteriores da SSP-DF com a mesma tabela por RA: Análises FSP nº 005/2020 (2018–2019), 002/2021 (2019–2020) e 003/2023 (2021–2022), além do RAC nº 020/2026 (1º semestre de 2025 e 2026). Eles permitem montar uma série histórica e conferir a extração em documentos diferentes. A extração está descrita na [Fase 3](Preparação_de_Dados.md).
+
 ## Referências documentais
 
 - SSP-DF. *Balanço Criminal — Distrito Federal: Comparativo Mensal 2024 por Natureza*. Arquivo fornecido: `00_DISTRITO-FEDERAL_1.pdf`.
